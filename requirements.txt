@@ -1,0 +1,39 @@
+# Core LangChain
+langchain==0.3.7
+langchain-groq==0.2.1
+langchain-community==0.3.7
+langchain-core==0.3.15
+langchain-text-splitters==0.3.2
+langgraph==0.2.45
+
+# LLM
+groq==0.11.0
+
+# Vector Store & RAG
+faiss-cpu==1.14.2
+rank-bm25==0.2.2
+
+# API
+fastapi==0.115.5
+uvicorn[standard]==0.32.1
+python-multipart==0.0.17
+websockets==14.1
+
+# UI
+streamlit==1.40.2
+
+# Validation
+pydantic==2.10.1
+pydantic-settings==2.6.1
+
+# Documents
+pypdf==5.1.0
+
+# Utils
+python-dotenv==1.0.1
+loguru==0.7.2
+httpx==0.28.0
+pytest==8.3.3
+
+# Observability
+langfuse==4.11.0
